@@ -1,0 +1,675 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(225, 221, 221);
+}
+
+main {
+	width: 1519px;
+	margin: 0 auto;
+	min-height: 900px;
+}
+
+header {
+	width: 100%;
+	height: 124px;
+	background-color: rgba(24, 24, 24, 1);
+	/* position: fixed; */
+}
+
+.logo {
+	margin: 40px;
+	position: relative;
+	right: 20px;
+}
+
+.papa {
+	display: flex;
+	gap: 2px;
+}
+
+.square {
+	width: 110px;
+	height: 38px;
+	background-color: black;
+	cursor: pointer;
+	position: relative;
+	bottom: 80px;
+	left: 250px;
+	border-radius: 6px 0px 0px 6px;
+}
+
+.square_dubai {
+	width: 110px;
+	height: 38px;
+	background-color: black;
+	cursor: pointer;
+	position: relative;
+	bottom: 80px;
+	left: 250px;
+	border-radius: 0px 6px 6px 0px;
+}
+
+.icon_location {
+	width: 9px;
+	height: 11px;
+	position: relative;
+	top: 12px;
+	left: 13px;
+}
+
+.text_moscow {
+	width: 48px;
+	height: 22px;
+	position: relative;
+	top: 2px;
+	left: 35px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+ul {
+	display: flex;
+	gap: 40px;
+	justify-content: center;
+	position: relative;
+	top: -105px;
+	padding-right: 50px;
+	color: white;
+}
+
+li {
+	list-style: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 460px;
+	position: relative;
+	top: -123px;
+	gap: 14px;
+}
+
+.phone_number {
+	display: flex;
+	justify-content: flex-end;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	top: -145px;
+	right: 300px;
+	color: white;
+	font-weight: bold;
+}
+
+.request_call {
+	width: 149px;
+	height: 44px;
+	border-radius: 8px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 3px solid rgba(60, 60, 60, 1);
+	background-color: rgba(24, 24, 24, 1);
+	color: white;
+	cursor: pointer;
+	position: relative;
+	top: -175px;
+	left: 82%;
+}
+
+.balls {
+	display: flex;
+	gap: 15px;
+	cursor: pointer;
+	justify-content: flex-end;
+	position: relative;
+	top: -220px;
+	right: 10px;
+}
+
+.ball {
+	width: 46px;
+	height: 46px;
+	background-color: black;
+	border-radius: 100%;
+	padding-top: 15px;
+	padding-left: 12px;
+}
+
+.ball_user {
+	width: 46px;
+	height: 46px;
+	background-color: black;
+	border-radius: 100%;
+	padding-top: 15px;
+	padding-left: 16px;
+}
+
+.number_one {
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border-radius: 50%;
+	padding-top: 1px;
+	padding-left: 6px;
+	color: white;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	top: -40px;
+	left: 20px;
+}
+
+.background_bmw {
+	background: url("./images/BWM.png") center center/cover no-repeat;
+	min-height: 1000px;
+	width: 97%;
+	position: relative;
+	left: 22px;
+	border-radius: 0px 0px 36px 36px;
+}
+
+.text_title {
+	display: flex;
+	justify-content: center;
+	font-size: 89px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	position: relative;
+	top: 160px;
+}
+
+.text {
+	text-align: center;
+	position: relative;
+	top: 190px;
+	font-size: 24px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.linier {
+	width: 86%;
+	height: 3px;
+	background-color: rgba(255, 255, 255, 0.2);
+	position: relative;
+	top: 270px;
+	left: 100px;
+}
+
+.ball_first {
+	width: 26px;
+	height: 26px;
+	background-color: white;
+	border-radius: 50%;
+	padding-top: 3px;
+	padding-left: 8px;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	top: 350px;
+	left: 200px;
+}
+
+.text_auto {
+	color: white;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	top: 324px;
+	padding-left: 240px;
+}
+
+.flex {
+	display: flex;
+	gap: 16px;
+}
+
+.box {
+	width: 80%;
+	height: 271px;
+	background-color: white;
+	position: relative;
+	top: -150px;
+	left: 140px;
+	border-radius: 20px;
+}
+
+.text_arenda {
+	position: relative;
+	top: 50px;
+	left: 50px;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgba(31, 31, 31, 1);
+}
+
+.box_first {
+	width: 242px;
+	height: 76px;
+	background-color: rgba(245, 245, 245, 1);
+	position: relative;
+	top: 100px;
+	left: 50px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.icon_date {
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.start_lease {
+	position: relative;
+	top: -20px;
+	left: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgba(164, 164, 164, 1);
+}
+
+.inputs {
+	display: flex;
+}
+
+.inputs_second {
+	display: flex;
+}
+
+.checkbox {
+	width: 20px;
+	height: 50px;
+	border-radius: 5px;
+	position: relative;
+	top: -75px;
+	left: 280px;
+	cursor: pointer;
+}
+
+.text_suv {
+	position: relative;
+	top: -60px;
+	left: 295px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox_first {
+	width: 20px;
+	height: 50px;
+	border-radius: 5px;
+	position: relative;
+	top: -90px;
+	left: 280px;
+	cursor: pointer;
+}
+
+.text_suvfirst {
+	position: relative;
+	top: -75px;
+	left: 295px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox_second {
+	width: 20px;
+	height: 50px;
+	border-radius: 5px;
+	position: relative;
+	top: -175px;
+	left: 435px;
+	cursor: pointer;
+}
+
+.text_suvsecond {
+	position: relative;
+	top: -160px;
+	left: 450px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox_third {
+	width: 20px;
+	height: 50px;
+	border-radius: 5px;
+	position: relative;
+	top: -187px;
+	left: 435px;
+	cursor: pointer;
+}
+
+.text_suvthird {
+	position: relative;
+	top: -172px;
+	left: 450px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox_fourth {
+	width: 20px;
+	height: 50px;
+	border-radius: 5px;
+	position: relative;
+	top: -275px;
+	left: 560px;
+	cursor: pointer;
+}
+
+.text_suvfourth {
+	position: relative;
+	top: -260px;
+	left: 570px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox_fifth {
+	width: 20px;
+	height: 50px;
+	border-radius: 5px;
+	position: relative;
+	top: -285px;
+	left: 560px;
+	cursor: pointer;
+}
+
+.text_suvfifth {
+	position: relative;
+	top: -270px;
+	left: 570px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.button_options {
+	width: 201px;
+	height: 76px;
+	position: relative;
+	top: 20px;
+	left: 82%;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	background: linear-gradient(
+		90deg,
+		rgba(159, 116, 55, 1) 0%,
+		rgba(227, 210, 147, 1) 50%,
+		rgba(227, 210, 147, 1) 100%
+	);
+}
+
+.car_park {
+	position: relative;
+	top: -30px;
+	padding-left: 140px;
+	font-size: 48px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.button_watch {
+	width: 124px;
+	height: 44px;
+	background-color: white;
+	border-radius: 8px;
+	color: black;
+	font-weight: bold;
+	border: 3px solid black;
+	position: relative;
+	top: -75px;
+	left: 33%;
+	cursor: pointer;
+}
+
+.pahan {
+	display: flex;
+	gap: 30px;
+}
+
+.button_cars {
+	width: 217px;
+	height: 74px;
+	background-color: white;
+	border-radius: 10px;
+	display: flex;
+	gap: 13px;
+	padding-top: 35px;
+	padding-left: 45px;
+	cursor: pointer;
+	border: none;
+	position: relative;
+	left: 140px;
+}
+button:hover {
+	color: white;
+	background-color: black;
+}
+
+.glavniy {
+	width: 1000px;
+	height: 550px;
+	position: relative;
+	top: 50px;
+	left: 140px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	column-gap: 15px;
+	gap: 15px;
+}
+
+.deti_glavny {
+	overflow: hidden;
+	width: 424px;
+	height: 483px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.button_moscow {
+	width: 59px;
+	height: 30px;
+	border-radius: 6px;
+	border: none;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	top: -110px;
+	left: 12%;
+	cursor: pointer;
+}
+
+.cars {
+	position: relative;
+	top: 70px;
+	left: 65px;
+}
+
+.text_bmw {
+	position: relative;
+	top: 90px;
+	left: 50px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.motor {
+	position: relative;
+	top: 120px;
+	left: 50px;
+}
+
+.benzin {
+	position: relative;
+	top: 100px;
+	left: 90px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: rgba(112, 112, 112, 1);
+}
+
+.koleso {
+	position: relative;
+	top: 83px;
+	left: 200px;
+}
+
+.litr {
+	position: relative;
+	top: 63px;
+	left: 240px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: rgba(112, 112, 112, 1);
+}
+
+.line {
+	width: 324px;
+	border: 1px solid rgba(235, 235, 235, 1);
+	position: relative;
+	top: 100px;
+	left: 50px;
+}
+
+.button_zabronirovat {
+	width: 150px;
+	height: 50px;
+	position: relative;
+	top: 130px;
+	left: 50px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	background: linear-gradient(
+		90deg,
+		rgba(159, 116, 55, 1) 0%,
+		rgba(227, 210, 147, 1) 50%,
+		rgba(227, 210, 147, 1) 100%
+	);
+}
+
+.money {
+	position: relative;
+	top: 90px;
+	left: 250px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgba(171, 171, 171, 1);
+}
+
+.rubl {
+	color: black;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_vniz {
+	padding-top: 70%;
+	padding-left: 9%;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_grey {
+	padding-top: 20px;
+	padding-left: 9%;
+	color: rgba(159, 159, 159, 1);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.background_mercedes {
+	background: url("./images/backgroundcar.png") center center/cover no-repeat;
+	min-height: 636px;
+	width: 90%;
+	position: relative;
+	top: 50px;
+	left: 5%;
+	border-radius: 36px;
+}
+
+.arenda_auto {
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 100px;
+	padding-right: 250px;
+	font-size: 48px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_dizrental {
+	color: white;
+	position: relative;
+	top: 170px;
+	padding-left: 170px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+.text_yslyga {
+	position: relative;
+	top: 215px;
+	padding-left: 170px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.input_victor {
+	position: relative;
+	top: -100px;
+	left: 68%;
+	width: 350px;
+	height: 76px;
+	background-color: white;
+	border-radius: 10px;
+	border: none;
+	padding: 20px;
+	display: grid;
+	gap: 10px;
+}
+
+.button_zabron {
+	width: 350px;
+	height: 76px;
+	position: relative;
+	top: -100px;
+	left: 68%;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	border-color: white;
+	border-radius: 10px;
+}
+
+.input_checkbox {
+	position: relative;
+	left: 42%;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.text_form {
+	position: relative;
+	top: -55px;
+	padding-left: 70%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgba(182, 182, 182, 1);
+}
